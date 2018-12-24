@@ -6,7 +6,7 @@ Setup package for distribution. To build documentation (html) execute
 
 import setuptools
 
-with open("README.txt", "r") as f:
+with open("README.rst", "r") as f:
     long_description = f.read()
 
 with open("LICENSE", "r") as f:
@@ -19,7 +19,7 @@ setuptools.setup(
         author_email="46107549+TobiasWulf@users.noreply.github.com",
         description="Tools for logging operations.",
         long_description=long_description,
-        long_description_content_type="text/plain",
+        long_description_content_type="text/restructuredtext",
         url="https://github.com/TobiasWulf/script_logger.git",
         packages=setuptools.find_packages(),
         install_requires=["sys", "os", "re", "glob", "datetime", "logging"],

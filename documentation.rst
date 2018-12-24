@@ -1,10 +1,10 @@
 Documentaion of script_logger
 *****************************
 
-.. include:: README.txt
+.. include:: README.rst
 
 .. note:: 
-   Feedback or questions are welcome, just email to tobias.x57756c66@gmail.com.
+   Feedback or questions are welcome, just email to 46107549+TobiasWulf@users.noreply.github.com.
 
 
 Module
