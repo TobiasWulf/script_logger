@@ -2,4 +2,7 @@
 """
 Initializes script_logger package.
 """
-__all__ = ['script_logger']
+import os
+
+if not os.getcwd() in os.sys.path:
+    os.sys.path.append(os.getcwd())

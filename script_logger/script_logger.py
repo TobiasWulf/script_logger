@@ -58,7 +58,7 @@ and cleanup after logging works is done.
 
 :Example:
     
-    >>> import script_logger as sl
+    >>> from script_logger import script_logger as sl
     >>> logger = sl.ScriptLogger(__name__, level=sl.DEBUG, stream_fmt=sl.STREAM_FMT,
     >>>                          file_fmt=sl.FILE_FMT, datefmt=sl.DATE_FMT,
     >>>                          stream=sl.STDOUT, filename='myLog.log')
